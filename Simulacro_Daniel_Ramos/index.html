@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="img/logo.jpg" class="img" alt="Logo" width="235" height="225">
+            </div>
+            <div class="col-md-6 text-center"> 
+                <h1>Buscando el norte</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Viajes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Lugares</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown">Seleccionar</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Uno</a></li>
+                                <li><a class="dropdown-item" href="#">Dos</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Tres</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <button class="btn btn-primary border-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container d-flex">
+        <div class="col-md-6 p-4">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/amapolas.jpg" width="200" height="200" class="img-fluid">
+                    <img src="./img/atardecer.jpg" width="200" height="200" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./img/playa.jpg" width="200" height="200" class="img-fluid">
+                    <img src="./img/barca.jpg" width="200" height="200" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 p-4 d-flex justify-content-end">
+            <div id="carouselExampleCaptions" class="carousel slide w-75" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/amapolas.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/atardecer.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/montaña.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <h1 class="bg-primary text-center text-white p-3">TÚ ELIGES</h1>
+    
+    <div class="container d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col d-flex justify-content-center">
+                <div class="card w-50">
+                    <img src="img/montaña.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Montaña</h5>
+                        <p class="card-text">disfruta haciendo rutas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card w-50">
+                    <img src="img/playa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body h-75">
+                        <h5 class="card-title">Playa</h5>
+                        <p class="card-text">Las mejores playas para decansar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <h1 class="bg-primary text-center text-white p-3">.</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
